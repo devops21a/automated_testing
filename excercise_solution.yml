@@ -18,4 +18,4 @@ stages:
       continueOnError: true
       inputs:
         script: 'newman run StarterAPIs.json'
-        workingDirectory: '...'
+        workingDirectory: '/automated_testing/'
