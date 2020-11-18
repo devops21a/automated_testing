@@ -17,5 +17,5 @@ stages:
       displayName: Run Newman Tests
       continueOnError: true
       inputs:
-        script: 'newman run Restful_Booker_Collection.postman_collection.json'
+        script: 'newman run Collection.starterAPIs.json'
         workingDirectory: '$(build.sourcesdirectory)'
